@@ -1,3 +1,13 @@
+```
+>>> from langchain.llms import poe
+>>> f = poe.PoeLLM(api_key, "a2")
+>>> text = "What would be a good company name for a company that makes colorful socks?"
+>>> print(f(text))
+ Here are a few more colorful sock company name ideas:
+```
+
+
+
 # 🦜️🔗 LangChain
 
 ⚡ Building applications with LLMs through composability ⚡
